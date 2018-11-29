@@ -16,6 +16,7 @@
 
                         @foreach($user as $users)
                             <br> Name: {{$users->name}}
+                            <br> Name: {{$users->name}}
                             <br>SerName:  {{$users->surname}}
                             <br>Email:  {{$users->email}}
                             <br>Birthday:  {{$users->birthday}}
